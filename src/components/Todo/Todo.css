@@ -1,0 +1,55 @@
+.todo {
+    padding: 1rem;
+    background: #161a2b;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 70%;
+    border-radius: 30px;
+}
+
+.todo__title {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.todo__input {
+    /* display: block; */
+    width: 30%;
+    margin: 10px auto;
+    padding: 5px;
+    text-align: center;
+    letter-spacing: 2px;
+    border: 2px solid #5d0cff;
+    background: transparent;
+    color: white;
+}
+
+.todo__addTodo {
+    /* display: block; */
+    width: 20%;
+    margin: 10px auto;
+    padding: 7px;
+    letter-spacing: 2px;
+    background: linear-gradient(90deg,
+            rgba(93, 12, 255, 1) 0%,
+            rgba(155, 0, 250, 1) 100%);
+    border: none;
+    cursor: pointer;
+}
+
+.todo__list-title {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.todo__list-li {
+    list-style: none;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.todo__list-removeButton {
+    margin: 5px;
+    background-color: rgb(243, 194, 189);
+}
